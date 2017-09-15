@@ -142,6 +142,7 @@ public class AlarmSearch extends AppCompatActivity {
                         else if(tag.equals("cover")){
                             xpp.next();
                             String Url;
+                            //asdasdasdasdasdad
                             Url = xpp.getText().toString();
                             cover.add(Url);
                             list_itemArrayList.add( new list_item( title.toString(), link.toString(), author.toString(),cover.toString()) );
