@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/idText"
+        android:layout_width="335dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="아이디"
+        android:inputType="textPersonName"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="336dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="336dp"
+        android:layout_height="43dp"
+        android:text="로그인"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/registerButton"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
